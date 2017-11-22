@@ -1,15 +1,14 @@
-<html ng-app="helloWorld">
+<html ng-app="helloworld">
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-        <script src="js/app.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>        
+        <script src="app.js"></script>
+        <script src="cardSearch/cardSearch.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
     </head>
-    <h2>this is a test</h2>
 
     <body ng-controller="helloWorldController">
         <a ui-sref="hello" ui-sref-active="active">Hello</a>
         <a ui-sref="about" ui-sref-active="active">About</a>
-        <button ng-click="goThere()">go there button</button>
         {{ greeting }}
         <ui-view></ui-view>
     </body>

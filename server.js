@@ -3,7 +3,7 @@ var app = express();
 var path = require('path');
 
 require('./app/routes.js')(app);
-app.use(express.static(path.join((__dirname, 'public'))));
+app.use(express.static(__dirname + '/public'));
 
   // Start that server, baby
 app.listen(3000, "localhost");
