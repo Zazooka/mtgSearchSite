@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
 var path = require('path');
+var mtg = require('mtgsdk');
 
 require('./app/routes.js')(app);
 app.use(express.static(__dirname + '/public'));

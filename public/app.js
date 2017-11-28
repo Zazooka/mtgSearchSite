@@ -1,4 +1,4 @@
-var myApp = angular.module('helloworld', ['ui.router']);
+var myApp = angular.module('mtgSearchSite', ['ui.router']);
 
 myApp.config(['$stateProvider', function ($stateProvider) {
   // var helloState = {
@@ -18,4 +18,7 @@ myApp.config(['$stateProvider', function ($stateProvider) {
 }])
   .controller('helloWorldController', ['$scope', '$state', function ($scope, $state) {
     $scope.greeting = 'Hola';
+    $scope.goThere = function() {
+      $state.go('cardSearch');
+    };
   }]);;
