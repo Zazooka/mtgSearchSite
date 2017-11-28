@@ -1,0 +1,29 @@
+{
+  "name": "mtgsearchsite",
+  "version": "1.0.0",
+  "description": "a mtg search site",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zazooka/mtgSearchSite.git"
+  },
+  "keywords": [
+    "keyword"
+  ],
+  "author": "jack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zazooka/mtgSearchSite/issues"
+  },
+  "homepage": "https://github.com/Zazooka/mtgSearchSite#readme",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.7",
+    "angular": "^1.6.6",
+    "angularjs": "0.0.1",
+    "express": "^4.16.2",
+    "mtgsdk": "^0.3.0"
+  }
+}
